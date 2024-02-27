@@ -1,0 +1,8 @@
+To ensure that the app functions properly even if the API is not working, follow these steps:
+
+1- Go to https://webhook.site/.
+2- Create a temporary link using the data from the ' apiData.txt ' file.
+3- Copy the generated temporary link.
+4- Paste the copied temporary link inside the ' getProductModel() ' function in the ' home.dart ' file of your app.
+
+This process will allow your app to use the temporary link generated from webhook.site.
